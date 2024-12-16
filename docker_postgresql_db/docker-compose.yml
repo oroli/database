@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - /home/loandka/Documents/projects/database_modelling/relational/docker_postgresql_db/postgresql_instance_data:/var/lib/postgresql/database
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
