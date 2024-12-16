@@ -1,1 +1,1 @@
-# database
+# Database Modelling Star / Galaxy schema
